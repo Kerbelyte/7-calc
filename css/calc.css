@@ -30,10 +30,11 @@ body {
     width: 0;
     height: 0;
     padding: 50%;
-    background-color: yellow;
+    background-color: white;
     border-radius: 50%;
     position: relative;
 }
+
 .calc > .key::before {
     content: attr(data-symbol);
     position: absolute;
